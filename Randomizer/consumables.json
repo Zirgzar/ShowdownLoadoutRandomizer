@@ -22,5 +22,65 @@
     {
         "name": "Liquid Firebomb",
         "cost": "23"
+    },
+    {
+        "name": "Hellfire Bomb",
+        "cost": "70"
+    },
+    {
+        "name": "Dynamite Stick",
+        "cost": "18"
+    },
+    {
+        "name": "Waxed Dynamite Stick",
+        "cost": "24"
+    },
+    {
+        "name": "Sticky Bomb",
+        "cost": "64"
+    },
+    {
+        "name": "Dynamite Bundle",
+        "cost": "75"
+    },
+    {
+        "name": "Frag Bomb",
+        "cost": "70"
+    },
+    {
+        "name": "Big Dynamite Bundle",
+        "cost": "110"
+    },
+    {
+        "name": "Chaos Bomb",
+        "cost": "15"
+    },
+    {
+        "name": "Flash Bomb",
+        "cost": "47"
+    },
+    {
+        "name": "Concertina Bomb",
+        "cost": "48"
+    },
+    {
+        "name": "Poison Bomb",
+        "cost": "25"
+    },
+    {
+        "name": "Weak Antidote Shot",
+        "cost": "25"
+    },
+    {
+        "name": "Antidote Shot",
+        "cost": "55"
+    },
+    {
+        "name": "Hive Bomb",
+        "cost": "40"
+    },
+    {
+        "name": "Ammo Box",
+        "cost": "65"
     }
 ]
