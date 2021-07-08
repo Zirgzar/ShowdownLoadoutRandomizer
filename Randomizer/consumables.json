@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Weak Vitality Shot",
+        "cost": "10"
+    },
+    {
+        "name": "Weak Stamina Shot",
+        "cost": "10"
+    },
+    {
+        "name": "Vitality Shot",
+        "cost": "65"
+    },
+    {
+        "name": "Stamina Shot",
+        "cost": "40"
+    },
+    {
+        "name": "Firebomb",
+        "cost": "18"
+    },
+    {
+        "name": "Liquid Firebomb",
+        "cost": "23"
+    }
+]

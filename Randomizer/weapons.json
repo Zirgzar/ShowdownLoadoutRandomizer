@@ -1,0 +1,42 @@
+[
+    {
+        "name": "Bomb Lance",
+        "cost": "199",
+        "size": "Large"
+    },
+    {
+        "name": "Caldwell Rival 78",
+        "cost": "100",
+        "size": "Large"
+    },
+    {
+        "name": "Crossbow",
+        "cost": "55",
+        "size": "Large"
+    },
+    {
+        "name": "Springfield 1866 Compact",
+        "cost": "33",
+        "size": "Medium"
+    },
+    {
+        "name": "Springfield 1866 Compact Striker",
+        "cost": "56",
+        "size": "Medium"
+    },
+    {
+        "name": "Nagant M1895",
+        "cost": "24",
+        "size": "Small"
+    },
+    {
+        "name": "Dusters",
+        "cost": "15",
+        "size": "Melee"
+    },
+    {
+        "name": "Knuckle Knife",
+        "cost": "15",
+        "size": "Melee"
+    }
+]
