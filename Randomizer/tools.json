@@ -10,5 +10,9 @@
     {
         "name": "Fusees",
         "cost": "10"
+    },
+    {
+        "name": "Throwing Knives",
+        "cost": "40"
     }
 ]
