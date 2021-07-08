@@ -12,7 +12,43 @@
         "cost": "10"
     },
     {
+        "name": "Flare Pistol",
+        "cost": "36"
+    },
+    {
         "name": "Throwing Knives",
         "cost": "40"
+    },
+    {
+        "name": "Choke Bomb",
+        "cost": "25"
+    },
+    {
+        "name": "Decoys",
+        "cost": "6"
+    },
+    {
+        "name": "Alert Trip Mines",
+        "cost": "60"
+    },
+    {
+        "name": "Blank Fire Decoys",
+        "cost": "45"
+    },
+    {
+        "name": "Decoy Fuses",
+        "cost": "60"
+    },
+    {
+        "name": "Concertina Trip Mines",
+        "cost": "90"
+    },
+    {
+        "name": "Poison Trip Mines",
+        "cost": "60"
+    },
+    {
+        "name": "Quad Derringer",
+        "cost": "30"
     }
 ]
