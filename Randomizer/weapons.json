@@ -2,401 +2,561 @@
     {
         "name": "Combat Axe",
         "cost": "5",
-        "size": "Medium"
+        "size": "Medium",
+        "type": "Melee",
+        "ammo": "None"
     },
     {
         "name": "Springfield 1866",
         "cost": "38",
-        "size": "Large"
+        "size": "Large",
+        "type": "Rifle",
+        "ammo": "Compact"
     },
     {
         "name": "Springfield 1866 Marksman",
         "cost": "73",
-        "size": "Large"
+        "size": "Large",
+        "type": "Rifle",
+        "ammo": "Compact"
     },
     {
         "name": "Springfield 1866 Compact",
         "cost": "33",
-        "size": "Medium"
+        "size": "Medium",
+        "type": "Rifle",
+        "ammo": "Compact"
     },
     {
         "name": "Springfield 1866 Compact Striker",
         "cost": "56",
-        "size": "Medium"
+        "size": "Medium",
+        "type": "Rifle",
+        "ammo": "Compact"
     },
     {
         "name": "Springfield 1866 Compact Deadeye",
         "cost": "46",
-        "size": "Medium"
+        "size": "Medium",
+        "type": "Rifle",
+        "ammo": "Compact"
     },
     {
         "name": "Nagant M1895",
         "cost": "24",
-        "size": "Small"
+        "size": "Small",
+        "type": "Pistol",
+        "ammo": "Compact"
     },
     {
         "name": "Nagant M1895 Precision",
         "cost": "29",
-        "size": "Medium"
+        "size": "Medium",
+        "type": "Pistol",
+        "ammo": "Compact"
     },
     {
         "name": "Nagant M1895 Silencer",
         "cost": "53",
-        "size": "Small"
+        "size": "Small",
+        "type": "Pistol",
+        "ammo": "Compact"
     },
     {
         "name": "Nagant M1895 Deadeye",
         "cost": "42",
-        "size": "Medium"
+        "size": "Medium",
+        "type": "Pistol",
+        "ammo": "Compact"
     },
     {
         "name": "Winfield M1873C",
         "cost": "41",
-        "size": "Large"
+        "size": "Large",
+        "type": "Rifle",
+        "ammo": "Compact"
     },
     {
         "name": "Winfield M1873C Silencer",
         "cost": "55",
-        "size": "Large"
+        "size": "Large",
+        "type": "Rifle",
+        "ammo": "Compact"
     },
     {
         "name": "Winfield M1873C Marksman",
         "cost": "56",
-        "size": "Large"
+        "size": "Large",
+        "type": "Rifle",
+        "ammo": "Compact"
     },
     {
         "name": "Winfield M1873C Vandal",
         "cost": "35",
-        "size": "Medium"
+        "size": "Medium",
+        "type": "Rifle",
+        "ammo": "Compact"
     },
     {
         "name": "Winfield M1873C Vandal Striker",
         "cost": "39",
-        "size": "Medium"
+        "size": "Medium",
+        "type": "Rifle",
+        "ammo": "Compact"
     },
     {
         "name": "Winfield M1873C Vandal Deadeye",
         "cost": "45",
-        "size": "Medium"
+        "size": "Medium",
+        "type": "Rifle",
+        "ammo": "Compact"
     },
     {
         "name": "Romero 77",
         "cost": "34",
-        "size": "Large"
+        "size": "Large",
+        "type": "Shotgun",
+        "ammo": "Shotgun"
     },
     {
         "name": "Romero 77 Handcannon",
         "cost": "26",
-        "size": "Medium"
+        "size": "Medium",
+        "type": "Shotgun",
+        "ammo": "Shotgun"
     },
     {
         "name": "Romero 77 Talon",
         "cost": "59",
-        "size": "Large"
+        "size": "Large",
+        "type": "Shotgun",
+        "ammo": "Shotgun"
     },
     {
         "name": "Romero 77 Hatchet",
         "cost": "62",
-        "size": "Medium"
+        "size": "Medium",
+        "type": "Shotgun",
+        "ammo": "Shotgun"
     },
     {
         "name": "Hand Crossbow",
         "cost": "35",
-        "size": "Small"
+        "size": "Small",
+        "type": "Crossbow",
+        "ammo": "Special"
     },
     {
         "name": "Crossbow",
         "cost": "55",
-        "size": "Large"
+        "size": "Large",
+        "type": "Crossbow",
+        "ammo": "Special"
     },
     {
         "name": "Vetterli 71 Karabiner",
         "cost": "105",
-        "size": "Large"
+        "size": "Large",
+        "type": "Rifle",
+        "ammo": "Medium"
     },
     {
         "name": "Vetterli 71 Karabiner Deadeye",
         "cost": "130",
-        "size": "Large"
+        "size": "Large",
+        "type": "Rifle",
+        "ammo": "Medium"
     },
     {
         "name": "Vetterli 71 Karabiner Bayonet",
         "cost": "155",
-        "size": "Large"
+        "size": "Large",
+        "type": "Rifle",
+        "ammo": "Medium"
     },
     {
         "name": "Caldwell Pax",
         "cost": "100",
-        "size": "Small"
+        "size": "Small",
+        "type": "Pistol",
+        "ammo": "Medium"
     },
     {
         "name": "Caldwell Pax Claw",
         "cost": "125",
-        "size": "Small"
+        "size": "Small",
+        "type": "Pistol",
+        "ammo": "Medium"
     },
     {
         "name": "Nagant M1895 Officer",
         "cost": "66",
-        "size": "Small"
+        "size": "Small",
+        "type": "Pistol",
+        "ammo": "Compact"
     },
     {
         "name": "Nagant M1895 Officer Brawler",
         "cost": "80",
-        "size": "Small"
+        "size": "Small",
+        "type": "Pistol",
+        "ammo": "Compact"
     },
     {
         "name": "Nagant M1895 Officer Carbine",
         "cost": "155",
-        "size": "Large"
+        "size": "Large",
+        "type": "Pistol",
+        "ammo": "Compact"
     },
     {
         "name": "Nagant M1895 Officer Carbine Deadeye",
         "cost": "211",
-        "size": "Large"
+        "size": "Large",
+        "type": "Pistol",
+        "ammo": "Compact"
     },
     {
         "name": "Martini-Henry IC1",
         "cost": "122",
-        "size": "Large"
+        "size": "Large",
+        "type": "Rifle",
+        "ammo": "Long"
     },
     {
         "name": "Martini-Henry IC1 Deadeye",
         "cost": "145",
-        "size": "Large"
+        "size": "Large",
+        "type": "Rifle",
+        "ammo": "Long"
     },
     {
         "name": "Martini-Henry IC1 Riposte",
         "cost": "164",
-        "size": "Large"
+        "size": "Large",
+        "type": "Rifle",
+        "ammo": "Long"
     },
     {
         "name": "Martini-Henry IC1 Marksman",
         "cost": "173",
-        "size": "Large"
+        "size": "Large",
+        "type": "Rifle",
+        "ammo": "Long"
     },
     {
         "name": "Caldwell Rival 78",
         "cost": "100",
-        "size": "Large"
+        "size": "Large",
+        "type": "Shotgun",
+        "ammo": "Shotgun"
     },
     {
         "name": "Caldwell Rival 78 Handcannon",
         "cost": "85",
-        "size": "Medium"
+        "size": "Medium",
+        "type": "Shotgun",
+        "ammo": "Shotgun"
     },
     {
         "name": "Winfield M1873",
         "cost": "75",
-        "size": "Large"
+        "size": "Large",
+        "type": "Rifle",
+        "ammo": "Compact"
     },
     {
         "name": "Winfield M1873 Aperture",
         "cost": "80",
-        "size": "Large"
+        "size": "Large",
+        "type": "Rifle",
+        "ammo": "Compact"
     },
     {
         "name": "Winfield M1873 Talon",
         "cost": "100",
-        "size": "Large"
+        "size": "Large",
+        "type": "Rifle",
+        "ammo": "Compact"
     },
     {
         "name": "Winfield M1873 Swift",
         "cost": "128",
-        "size": "Large"
+        "size": "Large",
+        "type": "Rifle",
+        "ammo": "Compact"
     },
     {
         "name": "Winfield M1873 Musket Bayonet",
         "cost": "137",
-        "size": "Large"
+        "size": "Large",
+        "type": "Rifle",
+        "ammo": "Compact"
     },
     {
         "name": "Caldwell Conversion Pistol",
         "cost": "26",
-        "size": "Small"
+        "size": "Small",
+        "type": "Pistol",
+        "ammo": "Compact"
     },
     {
         "name": "Caldwell Conversion Chain Pistol",
         "cost": "50",
-        "size": "Small"
+        "size": "Small",
+        "type": "Pistol",
+        "ammo": "Compact"
     },
     {
         "name": "Caldwell Conversion Uppercut",
         "cost": "275",
-        "size": "Small"
+        "size": "Small",
+        "type": "Pistol",
+        "ammo": "Long"
     },
     {
         "name": "Machete",
         "cost": "18",
-        "size": "Small"
+        "size": "Small",
+        "type": "Melee",
+        "ammo": "None"
     },
     {
         "name": "Sparks LRR",
         "cost": "130",
-        "size": "Large"
+        "size": "Large",
+        "type": "Rifle",
+        "ammo": "Long"
     },
     {
         "name": "Sparks LRR Silencer",
         "cost": "150",
-        "size": "Large"
+        "size": "Large",
+        "type": "Rifle",
+        "ammo": "Long"
     },
     {
         "name": "Sparks LRR Sniper",
         "cost": "199",
-        "size": "Large"
+        "size": "Large",
+        "type": "Rifle",
+        "ammo": "Long"
     },
     {
         "name": "Bornheim No. 3",
         "cost": "201",
-        "size": "Small"
+        "size": "Small",
+        "type": "Pistol",
+        "ammo": "Compact"
     },
     {
         "name": "Bornheim No. 3 Match",
         "cost": "224",
-        "size": "Medium"
+        "size": "Medium",
+        "type": "Pistol",
+        "ammo": "Compact"
     },
     {
         "name": "Bornheim No. 3 Extended",
         "cost": "306",
-        "size": "Small"
+        "size": "Small",
+        "type": "Pistol",
+        "ammo": "Compact"
     },
     {
         "name": "Specter 1882",
         "cost": "188",
-        "size": "Large"
+        "size": "Large",
+        "type": "Shotgun",
+        "ammo": "Shotgun"
     },
     {
         "name": "Specter 1882 Compact",
         "cost": "164",
-        "size": "Medium"
+        "size": "Medium",
+        "type": "Shotgun",
+        "ammo": "Shotgun"
     },
     {
         "name": "Specter 1882 Bayonet",
         "cost": "223",
-        "size": "Large"
+        "size": "Large",
+        "type": "Shotgun",
+        "ammo": "Shotgun"
     },
     {
         "name": "LeMat Mark II",
         "cost": "95",
-        "size": "Small"
+        "size": "Small",
+        "type": "Pistol",
+        "ammo": ["Compact", "Shotgun"]
     },
     {
         "name": "Lebel 1886",
         "cost": "397",
-        "size": "Large"
+        "size": "Large",
+        "type": "Rifle",
+        "ammo": "Long"
     },
     {
         "name": "Lebel 1886 Talon",
         "cost": "422",
-        "size": "Large"
+        "size": "Large",
+        "type": "Rifle",
+        "ammo": "Long"
     },
     {
         "name": "Lebel 1886 Marksman",
         "cost": "437",
-        "size": "Large"
+        "size": "Large",
+        "type": "Rifle",
+        "ammo": "Long"
     },
     {
         "name": "Winfield M1876 Centennial",
         "cost": "277",
-        "size": "Large"
+        "size": "Large",
+        "type": "Rifle",
+        "ammo": "Medium"
     },
     {
         "name": "Winfield M1876 Centennial Sniper",
         "cost": "298",
-        "size": "Large"
+        "size": "Large",
+        "type": "Rifle",
+        "ammo": "Medium"
     },
     {
         "name": "Cavalry Saber",
         "cost": "60",
-        "size": "Small"
+        "size": "Small",
+        "type": "Melee",
+        "ammo": "None"
     },
     {
         "name": "Winfield 1887 Terminus",
         "cost": "309",
-        "size": "Large"
+        "size": "Large",
+        "type": "Shotgun",
+        "ammo": "Shotgun"
     },
     {
         "name": "Winfield 1887 Terminus Handcannon",
         "cost": "289",
-        "size": "Medium"
+        "size": "Medium",
+        "type": "Shotgun",
+        "ammo": "Shotgun"
     },
     {
         "name": "Dolch 96",
         "cost": "750",
-        "size": "Small"
+        "size": "Small",
+        "type": "Pistol",
+        "ammo": "Special"
     },
     {
         "name": "Dolch 96 Precision",
         "cost": "790",
-        "size": "Medium"
+        "size": "Medium",
+        "type": "Pistol",
+        "ammo": "Special"
     },
     {
         "name": "Mosin-Nagant M1891",
         "cost": "490",
-        "size": "Large"
+        "size": "Large",
+        "type": "Rifle",
+        "ammo": "Long"
     },
     {
         "name": "Mosin-Nagant M1891 Obrez",
         "cost": "290",
-        "size": "Medium"
+        "size": "Medium",
+        "type": "Rifle",
+        "ammo": "Long"
     },
     {
         "name": "Mosin-Nagant M1891 Bayonet",
         "cost": "540",
-        "size": "Large"
+        "size": "Large",
+        "type": "Rifle",
+        "ammo": "Long"
     },
     {
         "name": "Mosin-Nagant M1891 Obrez Mace",
         "cost": "310",
-        "size": "Medium"
+        "size": "Medium",
+        "type": "Rifle",
+        "ammo": "Long"
     },
     {
         "name": "Mosin-Nagant M1891 Sniper",
         "cost": "550",
-        "size": "Large"
+        "size": "Large",
+        "type": "Rifle",
+        "ammo": "Long"
     },
     {
         "name": "Mosin-Nagant M1891 Obrez Drum",
         "cost": "350",
-        "size": "Medium"
+        "size": "Medium",
+        "type": "Rifle",
+        "ammo": "Long"
     },
     {
         "name": "Mosin-Nagant M1891 Avtomat",
         "cost": "1250",
-        "size": "Large"
+        "size": "Large",
+        "type": "Rifle",
+        "ammo": "Long"
     },
     {
         "name": "Bomb Lance",
         "cost": "199",
-        "size": "Large"
+        "size": "Large",
+        "type": "Melee",
+        "ammo": "Special"
     },
     {
         "name": "Crown & King Auto-5",
         "cost": "600",
-        "size": "Large"
+        "size": "Large",
+        "type": "Shotgun",
+        "ammo": "Shotgun"
     },
     {
         "name": "Nitro Express Rifle",
         "cost": "1015",
-        "size": "Large"
+        "size": "Large",
+        "type": "Rifle",
+        "ammo": "Special"
     },
     {
         "name": "Dusters",
         "cost": "15",
-        "size": "Melee"
+        "size": "Melee",
+        "type": "Melee",
+        "ammo": "None"
     },
     {
         "name": "Knuckle Knife",
         "cost": "15",
-        "size": "Melee"
+        "size": "Melee",
+        "type": "Melee",
+        "ammo": "None"
     },
     {
         "name": "Knife",
         "cost": "20",
-        "size": "Melee"
+        "size": "Melee",
+        "type": "Melee",
+        "ammo": "None"
     },
     {
         "name": "Heavy Knife",
         "cost": "25",
-        "size": "Melee"
+        "size": "Melee",
+        "type": "Melee",
+        "ammo": "None"
     }
 ]
