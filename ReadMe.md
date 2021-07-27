@@ -1,1 +1,1 @@
-Randomizer for Hunt:Showdown loadouts
+Randomizer for Hunt: Showdown loadouts
