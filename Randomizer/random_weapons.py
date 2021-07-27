@@ -53,15 +53,3 @@ def get_melee_weapon(weapons: dict):
     random_index = random.randint(0, len(weapons) - 1)
     return weapons[random_index]
 
-
-"""
-SlotTwo = 2
-
-Melee = random.randint(1, 4)
-
-Medkit = Medkit
-
-Tools = random.randint(1, 13)
-
-Consumables = random.randint(1, 21)
-"""
