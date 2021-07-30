@@ -1,86 +1,107 @@
 [
     {
         "name": "Weak Vitality Shot",
-        "cost": "10"
+        "cost": "10",
+        "level": 1
     },
     {
         "name": "Weak Stamina Shot",
-        "cost": "10"
+        "cost": "10",
+        "level": 1
     },
     {
         "name": "Vitality Shot",
-        "cost": "65"
+        "cost": "65",
+        "level": 1
     },
     {
         "name": "Stamina Shot",
-        "cost": "40"
+        "cost": "40",
+        "level": 1
     },
     {
         "name": "Firebomb",
-        "cost": "18"
+        "cost": "18",
+        "level": 1
     },
     {
         "name": "Liquid Firebomb",
-        "cost": "23"
+        "cost": "23",
+        "level": 1
     },
     {
         "name": "Hellfire Bomb",
-        "cost": "70"
+        "cost": "70",
+        "level": 1
     },
     {
         "name": "Dynamite Stick",
-        "cost": "18"
+        "cost": "18",
+        "level": 8
     },
     {
         "name": "Waxed Dynamite Stick",
-        "cost": "24"
+        "cost": "24",
+        "level": 8
     },
     {
         "name": "Sticky Bomb",
-        "cost": "64"
+        "cost": "64",
+        "level": 8
     },
     {
         "name": "Dynamite Bundle",
-        "cost": "75"
+        "cost": "75",
+        "level": 8
     },
     {
         "name": "Frag Bomb",
-        "cost": "70"
+        "cost": "70",
+        "level": 8
     },
     {
         "name": "Big Dynamite Bundle",
-        "cost": "110"
+        "cost": "110",
+        "level": 8
     },
     {
         "name": "Chaos Bomb",
-        "cost": "15"
+        "cost": "15",
+        "level": 32
     },
     {
         "name": "Flash Bomb",
-        "cost": "47"
+        "cost": "47",
+        "level": 40
     },
     {
         "name": "Concertina Bomb",
-        "cost": "48"
+        "cost": "48",
+        "level": 40
     },
     {
         "name": "Poison Bomb",
-        "cost": "25"
+        "cost": "25",
+        "level": 48
     },
     {
         "name": "Weak Antidote Shot",
-        "cost": "25"
+        "cost": "25",
+        "level": 48
     },
     {
         "name": "Antidote Shot",
-        "cost": "55"
+        "cost": "55",
+        "level": 48
     },
     {
         "name": "Hive Bomb",
-        "cost": "40"
+        "cost": "40",
+        "level": 48
     },
     {
         "name": "Ammo Box",
-        "cost": "65"
+        "cost": "65",
+        "level": 80
     }
 ]
