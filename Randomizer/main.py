@@ -3,11 +3,12 @@ import random_tools
 import random_consumable
 import json
 
+
 def start():
     # Load in the config data..
-    weapons = json.loads(open("Randomizer/weapons.json").read())
-    tools = json.loads(open("Randomizer/tools.json").read())
-    consumables = json.loads(open("Randomizer/consumables.json").read())
+    weapons = json.loads(open("weapons.json").read())
+    tools = json.loads(open("tools.json").read())
+    consumables = json.loads(open("consumables.json").read())
 
     # Build the loadout..
     loadout = dict()
@@ -61,7 +62,6 @@ def build_consumables(loadout: dict, consumables: list):
         consumables=consumables
     )
     return loadout
-
 
 
 # Print the loadout
