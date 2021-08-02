@@ -1,5 +1,4 @@
 import random
-from player_level import playerLevel
 
 
 def get_slot_one_weapon(weapons: dict):
@@ -7,12 +6,9 @@ def get_slot_one_weapon(weapons: dict):
     randomly picks out a primary weapon.
     :return: str
     """
-
     # Remove any "small" or "melee" for slot 1.
     weapons = [x for x in weapons if x.get("size").lower() != "small"]
     weapons = [x for x in weapons if x.get("size").lower() != "melee"]
-    # Get only weapons player has level for
-    weapons = [x for x in weapons if x.get("level") <= playerLevel]
 
     # Pick and return a random one, based on how many there are.
     random_index = random.randint(0, len(weapons) - 1)
@@ -30,8 +26,6 @@ def get_slot_two_weapon(
     weapons = [
         x for x in weapons if x.get("name").lower() != slot_one_weapon_name.lower()
     ]
-    weapons = [x for x in weapons if x.get("level") <= playerLevel]
-
     # Remove any "large" or "melee" found.
     weapons = [x for x in weapons if x.get("size").lower() != "large"]
     weapons = [x for x in weapons if x.get("size").lower() != "melee"]
@@ -54,6 +48,5 @@ def get_melee_weapon(weapons: dict):
     """
     # Remove any weapon that is not a "melee" size.
     weapons = [x for x in weapons if x.get("size").lower() == "melee"]
-    weapons = [x for x in weapons if x.get("level") <= playerLevel]
     random_index = random.randint(0, len(weapons) - 1)
     return weapons[random_index]
