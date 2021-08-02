@@ -2,6 +2,21 @@ import random_weapons
 import random_tools
 import random_consumable
 import json
+import sys
+
+
+def player_level():
+    # Get player level to limit random items to ones that are available
+    return int(input("Enter your bloodline level: "))
+
+
+def reroll():
+    # Reroll if don't have the advanced items or don't like loadout
+    answer = input("Would you like to reroll? Y/N: ").lower()
+    if answer == "y":
+        return start()
+    else:
+        sys.exit()
 
 
 def start():
@@ -9,6 +24,10 @@ def start():
     weapons = json.loads(open("weapons.json").read())
     tools = json.loads(open("tools.json").read())
     consumables = json.loads(open("consumables.json").read())
+    playerLevel = player_level()
+    weapons = [x for x in weapons if x.get("level") <= playerLevel]
+    tools = [x for x in tools if x.get("level") <= playerLevel]
+    consumables = [x for x in consumables if x.get("level") <= playerLevel]
 
     # Build the loadout..
     loadout = dict()
@@ -21,7 +40,10 @@ def start():
 
     # Next, consumables..
     loadout = build_consumables(loadout=loadout, consumables=consumables)
-    return loadout
+    # Print the loadout
+    print(json.dumps(loadout, indent=4))
+
+    return reroll()
 
 
 def build_weapons(loadout: dict, weapons: list):
@@ -64,5 +86,5 @@ def build_consumables(loadout: dict, consumables: list):
     return loadout
 
 
-# Print the loadout
-print(json.dumps(start(), indent=4))
+if __name__ in "__main__":
+    start()
