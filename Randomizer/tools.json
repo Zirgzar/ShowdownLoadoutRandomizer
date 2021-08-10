@@ -1,67 +1,67 @@
 [
     {
         "name": "Spyglass",
-        "cost": "8",
+        "cost": 8,
         "level": 24
     },
     {
         "name": "Electric Lamp",
-        "cost": "5",
+        "cost": 5,
         "level": 1
     },
     {
         "name": "Fusees",
-        "cost": "10",
+        "cost": 10,
         "level": 1
     },
     {
         "name": "Flare Pistol",
-        "cost": "36",
+        "cost": 36,
         "level": 1
     },
     {
         "name": "Throwing Knives",
-        "cost": "40",
+        "cost": 40,
         "level": 1
     },
     {
         "name": "Choke Bomb",
-        "cost": "25",
+        "cost": 25,
         "level": 11
     },
     {
         "name": "Decoys",
-        "cost": "6",
+        "cost": 6,
         "level": 32
     },
     {
         "name": "Alert Trip Mines",
-        "cost": "60",
+        "cost": 60,
         "level": 32
     },
     {
         "name": "Blank Fire Decoys",
-        "cost": "45",
+        "cost": 45,
         "level": 32
     },
     {
         "name": "Decoy Fuses",
-        "cost": "60",
+        "cost": 60,
         "level": 32
     },
     {
         "name": "Concertina Trip Mines",
-        "cost": "90",
+        "cost": 90,
         "level": 40
     },
     {
         "name": "Poison Trip Mines",
-        "cost": "60",
+        "cost": 60,
         "level": 48
     },
     {
         "name": "Quad Derringer",
-        "cost": "30",
+        "cost": 30,
         "level": 66
     }
 ]

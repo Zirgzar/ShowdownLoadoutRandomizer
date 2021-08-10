@@ -40,6 +40,7 @@ def start():
 
     # Next, consumables..
     loadout = build_consumables(loadout=loadout, consumables=consumables)
+
     # Print the loadout
     print(json.dumps(loadout, indent=4))
 
@@ -60,7 +61,7 @@ def build_weapons(loadout: dict, weapons: list):
 def build_tools(loadout: dict, weapons: list, tools: list):
     # Pick the tools..
     loadout["slot_one_tool"] = random_weapons.get_melee_weapon(weapons=weapons)
-    loadout["slot_two_tool"] = {"name": "First Aid Kit", "cost": "30"}
+    loadout["slot_two_tool"] = {"name": "First Aid Kit", "cost": 30}
     loadout["slot_three_tool"] = random_tools.randomly_pick_tools(tools=tools)
     # Remove the tool it selected for the first slot.
     to_pop_index = tools.index(loadout.get("slot_three_tool"))
