@@ -28,6 +28,7 @@ def start():
     weapons = [x for x in weapons if x.get("level") <= playerLevel]
     tools = [x for x in tools if x.get("level") <= playerLevel]
     consumables = [x for x in consumables if x.get("level") <= playerLevel]
+    totalcost = 0
 
     # Build the loadout..
     loadout = dict()
@@ -40,6 +41,12 @@ def start():
 
     # Next, consumables..
     loadout = build_consumables(loadout=loadout, consumables=consumables)
+
+    # Get cost of items
+    costs = [price.get("cost") for cost, price in loadout.items() if price.get("cost")]
+    for price in costs:
+        totalcost += price
+    loadout["totalcost"] = totalcost
 
     # Print the loadout
     print(json.dumps(loadout, indent=4))
